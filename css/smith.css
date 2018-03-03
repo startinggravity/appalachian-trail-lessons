@@ -1,0 +1,87 @@
+.text-bg {
+  padding: 1em;
+  background: rgba(250, 250, 250, 0.5);
+}
+
+.text-bg h1,
+.text-bg h2,
+.text-bg h3,
+.text-bg h4,
+.text-bg p,
+.text-bg li {
+  color: black;
+}
+
+.text-bg ul {
+  margin: 0;
+}
+
+.text-bg li {
+  padding-bottom: 1em;
+  list-style: none;
+  text-align: center;
+}
+
+#about-me .text-bg {
+  width: 50%;
+  margin-left: -40px;
+}
+
+#about-me .text-bg li {
+  font-size: 0.7em;
+  padding-bottom: 0.2em;
+  list-style: disc;
+  text-align: left;
+}
+
+#carry-only-2 .text-bg {
+  position: relative;
+  top: -215px;
+}
+
+
+#at-map {
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#float {
+  position: relative;
+  width: 100%;
+  -webkit-animation: floatmap 20s infinite normal ease-out;
+  animation: floatmap 20s infinite normal ease-out;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
+
+@-webkit-keyframes floatmap {
+  0% {
+    top: -400%;
+  }
+  100% {
+    top: 0;
+  }
+}
+
+@keyframes floatmap {
+  0% {
+    top: -400%;
+  }
+  100% {
+    top: 0;
+  }
+}
+
+h2.at-map-title {
+  position: absolute;
+  top: 30%;
+  z-index: 10000;
+  left: 62%;
+  padding: 0.5em;
+  background: rgba(250, 250, 250, 1);
+  color: black !important;
+  text-shadow: none;
+  text-transform: none;
+}
