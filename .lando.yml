@@ -1,4 +1,4 @@
-name: at-drupal
-recipe: lamp
+name: at-presentation
+recipe: lemp
 config:
   webroot: .
