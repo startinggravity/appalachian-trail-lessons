@@ -34,6 +34,11 @@
   text-align: left;
 }
 
+#about-white-blaze section img,
+#about-white-blaze-2 section img {
+  margin: 0;
+}
+
 #carry-only-2 .text-bg {
   position: relative;
   top: -215px;
