@@ -39,7 +39,8 @@
   margin: 0;
 }
 
-#carry-only-2 .text-bg {
+#carry-only-2 .text-bg,
+#experience-6 .text-bg {
   position: relative;
   top: -215px;
 }
